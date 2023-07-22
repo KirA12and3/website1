@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+.Contact_button {
+  cursor: pointer;
+}
+.Ideas-button {
+  cursor: pointer;
+}
+.Games-button {
+  cursor: pointer;
+}
+.Art-button {
+  cursor: pointer;
+}
+body {
+  background-color: aqua;
+}
