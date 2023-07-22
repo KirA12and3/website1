@@ -15,4 +15,8 @@ h1 {
 }
 body {
   background-color: aqua;
+  font-family: Calibri;
+}
+.menu {
+  padding: 20px;
 }
