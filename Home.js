@@ -1,26 +1,27 @@
+// alert('Hey friends');
 console.log('hello');
 
 // alert('hey this is Tyrell');
 // How to write a comment
 
 // Variables
-var b = 'smoothie'
+let b = 'smoothie'
 console.log(b)
 
-var number = 30;
-// console.log(number);
+let number = 30;
+console.log(number);
 
 // Manipulation DOM with Javascript
 /* ... It's  just a Fancy way of saying
 change HTML with Javascripts*/
 
 
-// var age = prompt('What is your age?');
+// let age = prompt('What is your age?');
 
 // document.getElementById('SomeText').innerHTML = age;
 
 // Numbers in Javascript
-var num1 = 10;
+let num1 = 10;
 
 // Increase num1 by 1
 num1++;
@@ -57,11 +58,11 @@ Return: Hello Tyrell
 
 
 function greeting(yourName) {
-    var result = 'Hello ' + yourName+ ' would you like a smoothie?'; // str concatenation
-    console.log(result);
+    let result = 'Hello ' + yourName+ ' would you like a smoothie?'; // str concatenation
+    console.log(result)
 }
 
-// var name = prompt('What is your name?');
+// let name = prompt('What is your name?');
 // greeting(name);
 
 
@@ -100,5 +101,24 @@ let nothing = null; // value null
 
 // strings in Javascript common methods
 let fruit = 'banana';
-let moreFruits = 'banana\apple';
+let moreFruits = 'banana\napple'; // \n means new line
+console.log(fruit.length);
 console.log(moreFruits);
+console.log(fruit.slice(2,4));
+console.log(fruit.replace());
+console.log(fruit.indexOf());
+console.log(fruit.toLowerCase());
+console.log(fruit.toUpperCase());
+console.log(fruit.charAt());
+console.log(fruit[2]);
+console.log(fruit.split(',')); // split by a comma
+console.log(fruit.split('')); // split by characters
+
+// Array
+let fruits = ['banana', 'apple', 'grapes', 'watermelon']; // call a let function with alert
+
+fruits = new Array('banana', 'apple', 'grapes', 'watermelon');
+
+
+
+
