@@ -3,6 +3,8 @@ h1 {
     color: White;
     width: 200px;
     margin: 10px auto;
+    font-style: italic;
+    font-weight: bold;
   }
   .Contact_button {
     cursor: pointer;
@@ -11,7 +13,7 @@ h1 {
     margin-right: 8px; 
     background-color: grey;
     transition: background-color 2s ; 
-    box-shadow: 10px 10px 25px blue;
+    box-shadow: 5px 5px 25px blue;
   }
   .Contact_button:hover{
     background-color: white;
@@ -24,7 +26,7 @@ h1 {
     font-family: Strong;
     margin-right: 8px;
     transition: all 3s ;
-    box-shadow: 10px 10px 25px blue;
+    box-shadow: 5px 5px 25px blue;
   }
   .Ideas-button:hover{
     background: linear-gradient(180deg, rgb(0, 0, 255) 0%, rgb(0, 0, 255) 50%, rgb(0, 0, 255) 100%);
@@ -36,7 +38,7 @@ h1 {
     color: red;
     font-family: Strong;
     margin-right: 8px;
-    box-shadow: 10px 10px 25px blue;
+    box-shadow: 5px 5px 25px blue;
   }
   .Games-button:hover{
     background: linear-gradient(180deg, rgb(0, 255, 0) 0%, rgb(0, 255, 0) 50%, rgb(0, 255, 0) 100%);
@@ -48,7 +50,7 @@ h1 {
     color: green;
     font-family: Strong;
     margin-right: 8px;
-    box-shadow: 10px 10px 25px blue;
+    box-shadow: 5px 5px 25px blue;
   }
   .Art-button:hover {
     background: white;
@@ -62,7 +64,7 @@ h1 {
     background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
     color: Yellow;
     font-family: Strong;
-    box-shadow: 10px 10px 25px blue;
+    box-shadow: 5px 5px 25px blue;
   }
   .Home-button:hover{
     background: red;
@@ -71,5 +73,5 @@ h1 {
     background: linear-gradient(180deg, rgb(74, 14, 122) 0%, rgb(62, 113, 245) 50%, rgb(27, 27, 162) 100%);
     color: White;
     font-family: Calibri;
-    font-size: 18;
+    font-size: 24;
   }

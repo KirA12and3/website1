@@ -16,7 +16,14 @@ console.log(number);
 change HTML with Javascripts*/
 
 
-// let age = prompt('What is your age?');
+let code = prompt('What is the 4 digit code?');
+if (code > 4553) {
+    alert('Wrong');
+} else if (code < 4553) {
+    alert('Wrong');
+} else if (code == 4553) {
+    alert('Go to IDEAS')
+}
 
 // document.getElementById('SomeText').innerHTML = age;
 
@@ -113,6 +120,7 @@ console.log(fruit.charAt());
 console.log(fruit[2]);
 console.log(fruit.split(',')); // split by a comma
 console.log(fruit.split('')); // split by characters
+console.log("Tyrell's Works = Home")
 
 // Array
 let fruits = ['banana', 'apple', 'grapes', 'watermelon']; // call a let function with alert
