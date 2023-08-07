@@ -17,11 +17,7 @@ change HTML with Javascripts*/
 
 
 let code = prompt('What is the 4 digit code?');
-if (code > 4553) {
-    alert('Wrong');
-} else if (code < 4553) {
-    alert('Wrong');
-} else if (code == 4553) {
+if (code == 4553) {
     alert('Go to IDEAS')
 }
 
